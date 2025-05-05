@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Cambiar hint de "Buscar por Nombre" a "Buscar por Cédula" -->
+        <EditText
+            android:id="@+id/etBuscar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Buscar por Cédula"
+            android:inputType="number" /> <!-- Asegúrate de que sea un campo numérico -->
+
+        <Button
+            android:id="@+id/btnBuscar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buscar" />
+
+        <EditText
+            android:id="@+id/etNuevoNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nuevo Nombre" />
+
+        <EditText
+            android:id="@+id/etNuevoTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nuevo Teléfono" />
+
+        <EditText
+            android:id="@+id/etNuevoCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nuevo Correo" />
+
+        <Spinner
+            android:id="@+id/spNuevoGenero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/etNuevaCarrera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nueva Carrera en Curso" />
+
+        <EditText
+            android:id="@+id/etNuevoSemestre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nuevo Semestre"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etNuevaUniversidad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nueva Universidad" />
+
+        <EditText
+            android:id="@+id/etNuevosCreditos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nuevos Créditos Matriculados"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/btnActualizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Actualizar Registro" />
+
+    </LinearLayout>
+</ScrollView>
